@@ -1,0 +1,21 @@
+.homeSopra{
+    background: rgb(0,255,128);
+background: linear-gradient(-3deg, rgba(0,255,128,1) 51%, rgba(0,255,218,1) 51%);
+}
+.container{
+    width: 500px;
+  padding-left: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 4%;
+}
+.btn {
+    color: '#00fb9b';
+}
+.buttonStyle{
+    padding-right:1%;
+    padding-left:-10%;
+}
+.navbar{
+padding-left: 79%
+}
