@@ -23,7 +23,16 @@
         <div class="col" style="text-align: right ;">
           <button class="btn btn-light me-md-2" type="button">Collabora con noi</button>
           <button class="btn btn-light" type="button">Registrati o Accedi</button>
-          <button type="button" class="btn btn-light">Menu</button>
+          <button type="button" class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+            </div>
+          </div>
         </div>
       </div>
       <!-- fine menu -->
@@ -119,7 +128,7 @@
 
 
     </div><!--fine terzo container-->
-    
+
   </div>
 
 
